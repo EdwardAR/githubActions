@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       uses: actions/checkout@v4
-      run: echo "Hacemos pull del codigo"
-      run: echo "Corregir migraciones"
-      run: echo "Hacemos deploy del codigo"
-      run: echo "Reiniciamos el servidor"
+      - run: echo "Hacemos pull del codigo"
+      - run: echo "Corregir migraciones"
+      - run: echo "Hacemos deploy del codigo"
+      - run: echo "Reiniciamos el servidor"
 
  
