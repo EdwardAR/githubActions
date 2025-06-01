@@ -1,0 +1,16 @@
+name: "Deploy code"
+
+on: 
+  push:
+    branches: ["master"]
+
+jobs:    
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "Hacemos pull del codigo"
+      run: echo "Corregir migraciones"
+      run: echo "Hacemos deploy del codigo"
+      run: echo "Reiniciamos el servidor"
+
+ 
